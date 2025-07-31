@@ -61,6 +61,19 @@ This project uses an **HC-SR04 ultrasonic sensor** and a **0.96" I2C OLED displa
 
 ---
 
+🧠 Possible Extensions
+🔊 Add a buzzer for audible alerts
+
+📈 Log data to SD card
+
+📐 Display distance in inches or meters
+
+🤖 Attach a servo to react to distance
+
+📶 Add wireless display via Bluetooth or WiFi (ESP32/ESP8266)
+
+---
+
 ## 📦 Dependencies
 
 Add the following to your `platformio.ini` file to include the required libraries:
@@ -74,18 +87,6 @@ framework = arduino
 lib_deps =
 adafruit/Adafruit SSD1306 @ ^2.5.9
 adafruit/Adafruit GFX Library @ ^1.11.9
----
-
-🧠 Possible Extensions
-🔊 Add a buzzer for audible alerts
-
-📈 Log data to SD card
-
-📐 Display distance in inches or meters
-
-🤖 Attach a servo to react to distance
-
-📶 Add wireless display via Bluetooth or WiFi (ESP32/ESP8266)
 
 
 
