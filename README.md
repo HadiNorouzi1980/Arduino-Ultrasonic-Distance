@@ -74,7 +74,7 @@ framework = arduino
 lib_deps =
 adafruit/Adafruit SSD1306 @ ^2.5.9
 adafruit/Adafruit GFX Library @ ^1.11.9
-
+---
 
 🧠 Possible Extensions
 🔊 Add a buzzer for audible alerts
@@ -86,5 +86,6 @@ adafruit/Adafruit GFX Library @ ^1.11.9
 🤖 Attach a servo to react to distance
 
 📶 Add wireless display via Bluetooth or WiFi (ESP32/ESP8266)
+
 
 
